@@ -17,6 +17,9 @@ ul {
 button {
   cursor: pointer;
   font: inherit;
+
+  border: none;
+  outline: none;
 }
 
 :root {
@@ -25,7 +28,7 @@ button {
 
   --light-color: #ffffff;
 
-  --purple-color: rgb(139, 8, 129);
+  --purple-color: #8b0881;
 
   --primary-gradient: linear-gradient(
     180deg,
@@ -55,15 +58,6 @@ button {
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-}
-
-.logo {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.zahid {
-  color: var(--purple-color);
 }
 
 .nav-items {
@@ -98,4 +92,28 @@ button {
   font-weight: 600;
 
   box-shadow: 0px 20px 20px -10px rgba(251, 152, 47, 0.9);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.col1 h1 {
+  font-size: 3rem;
+}
+
+.col1 button {
+  margin-top: 1.5rem;
+}
+
+.hero-paragraph {
+  max-width: 350px;
+  margin-top: 1.5rem;
+}
+
+.hero-zahid {
+  color: var(--primary-medium);
 }
