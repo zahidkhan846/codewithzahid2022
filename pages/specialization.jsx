@@ -1,7 +1,7 @@
 function SpecializationPage() {
   return (
     <div>
-      <h1>This is my specialization</h1>
+      <h1 style={{ textAlign: "center" }}>Specialization</h1>
     </div>
   );
 }
